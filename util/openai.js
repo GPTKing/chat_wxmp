@@ -10,7 +10,7 @@ function getReply(text) {
         }, {
             headers: {
                 "Content-Type": "application/json",
-                "Authorization": "Bearer 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" // 密钥
+                "Authorization": "Bearer 你的key值" // 密钥
             }
         }).then(res => {
 			const reply = res.data.choices[0].text.replace(/^\n.*/g, '')
