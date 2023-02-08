@@ -24,6 +24,16 @@
                 "Authorization": "Bearer 你的key值" 
             }
 ````
+项目成功运行之后，由于微信配置需要80/443端口，大家在部署的时候请自行修改运行端口或者通过映射到80/443端口即可
+使用公众号测试号进行测试。
+
+![img.png](img.png)
+
+测试成功运行如下图
+故障说明：由于回答超时，大家可以自行在代码中自定。
+
+![img_1.png](img_1.png)
+
 ## 接入个人微信版
 请移步到此仓库：https://gitee.com/lmuiotctf/chatGpt_wechat
 
@@ -31,3 +41,9 @@
 http://chat.wxredcover.cn/
 
 ### 欢迎大家start!!!!!!
+
+### 添加微信（备注: wechabot）进群交流
+
+**如果二维码图片没显示出来，请添加微信号 留言**
+
+<img width="210px"  src="https://gitee.com/lmuiotctf/chatGpt_wechat/raw/master/image/wechat.png" align="left">
