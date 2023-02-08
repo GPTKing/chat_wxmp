@@ -21,9 +21,14 @@
 
     headers: {
                 "Content-Type": "application/json",
-                "Authorization": "Bearer 你的key值" 
+                "Authorization": "Bearer 你的key值你的key值" 
             }
+#   APIKEY获取
+https://platform.openai.com/account/api-keys
+
 ````
+![img_3.png](img_3.png)
+
 项目成功运行之后，由于微信配置需要80/443端口，大家在部署的时候请自行修改运行端口或者通过映射到80/443端口即可
 使用公众号测试号进行测试。
 
