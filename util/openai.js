@@ -3,7 +3,7 @@ const http = require("axios");
 // 调用openai接口获取回答
 function getReply(text) {
     return new Promise((resolve, reject) => {
-        http.post("https://api.openai.com/v1/completions", {
+        http.post("https://agent-openai.ccrui.dev/v1/completions", {
             "model": "text-davinci-003", // 机器人模型，不同型号有不同功能
             "prompt": text, // 问题
             "max_tokens": 2048 // 最大字符为2048个
